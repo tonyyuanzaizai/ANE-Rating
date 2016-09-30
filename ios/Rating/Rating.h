@@ -84,7 +84,7 @@ void DCRatingContextFinalizer(FREContext ctx);
  * Users of this template are expected to change this and add similar functions
  * to be able to call the native functions in the ANE from their ActionScript code
  */
-//ANE_FUNCTION(isSupported);
+ANE_FUNCTION(isSupported);
 ANE_FUNCTION(shouldPromptForRating);
 ANE_FUNCTION(applicationLaunched);
 ANE_FUNCTION(logEvent);

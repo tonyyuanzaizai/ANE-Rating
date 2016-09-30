@@ -7,22 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BF684A21D9E3E6000B275FF /* iRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1BF6849F1D9E3E6000B275FF /* iRate.bundle */; };
+		1BF684A31D9E3E6000B275FF /* iRate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BF684A01D9E3E6000B275FF /* iRate.h */; };
+		1BF684A41D9E3E6000B275FF /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF684A11D9E3E6000B275FF /* iRate.m */; };
+		1BF684B11D9E3F2F00B275FF /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BF684AD1D9E3F2F00B275FF /* FlashRuntimeExtensions.h */; };
+		1BF684B21D9E3F2F00B275FF /* Rating-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 1BF684AE1D9E3F2F00B275FF /* Rating-Prefix.pch */; };
+		1BF684B31D9E3F2F00B275FF /* Rating.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BF684AF1D9E3F2F00B275FF /* Rating.h */; };
+		1BF684B41D9E3F2F00B275FF /* Rating.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF684B01D9E3F2F00B275FF /* Rating.m */; };
 		F8487310191FEEB000808C8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F848730F191FEEB000808C8C /* Foundation.framework */; };
-		F8487312191FEEB000808C8C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8487311191FEEB000808C8C /* CoreFoundation.framework */; };
 		F8487314191FEEB000808C8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8487313191FEEB000808C8C /* UIKit.framework */; };
-		F8487316191FEEB000808C8C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8487315191FEEB000808C8C /* MobileCoreServices.framework */; };
-		F8487318191FEEB000808C8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8487317191FEEB000808C8C /* CoreGraphics.framework */; };
-		F848731A191FEEB000808C8C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8487319191FEEB000808C8C /* SystemConfiguration.framework */; };
-		F848731C191FEEB000808C8C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F848731B191FEEB000808C8C /* AudioToolbox.framework */; };
-		F848731E191FEEB000808C8C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F848731D191FEEB000808C8C /* CFNetwork.framework */; };
-		F8487320191FEEB000808C8C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F848731F191FEEB000808C8C /* QuartzCore.framework */; };
-		F848732A191FEEB000808C8C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8487329191FEEB000808C8C /* AVFoundation.framework */; };
-		F848732C191FEEB000808C8C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F848732B191FEEB000808C8C /* Security.framework */; };
-		F8487332191FEEB000808C8C /* Rating.m in Sources */ = {isa = PBXBuildFile; fileRef = F8487331191FEEB000808C8C /* Rating.m */; };
-		F8487351191FF58900808C8C /* iRate.h in Headers */ = {isa = PBXBuildFile; fileRef = F848734F191FF58900808C8C /* iRate.h */; };
-		F8487352191FF58900808C8C /* iRate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8487350191FF58900808C8C /* iRate.m */; };
-		F8487354191FF71200808C8C /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8487353191FF71200808C8C /* FlashRuntimeExtensions.h */; };
-		F8487358192005BF00808C8C /* iRate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F848734E191FF58900808C8C /* iRate.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,26 +31,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1BF6849F1D9E3E6000B275FF /* iRate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = iRate.bundle; sourceTree = "<group>"; };
+		1BF684A01D9E3E6000B275FF /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRate.h; sourceTree = "<group>"; };
+		1BF684A11D9E3E6000B275FF /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRate.m; sourceTree = "<group>"; };
+		1BF684AD1D9E3F2F00B275FF /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+		1BF684AE1D9E3F2F00B275FF /* Rating-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Rating-Prefix.pch"; sourceTree = "<group>"; };
+		1BF684AF1D9E3F2F00B275FF /* Rating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rating.h; sourceTree = "<group>"; };
+		1BF684B01D9E3F2F00B275FF /* Rating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rating.m; sourceTree = "<group>"; };
 		F848730C191FEEB000808C8C /* libRating.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRating.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F848730F191FEEB000808C8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F8487311191FEEB000808C8C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		F8487313191FEEB000808C8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		F8487315191FEEB000808C8C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		F8487317191FEEB000808C8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F8487319191FEEB000808C8C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		F848731B191FEEB000808C8C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		F848731D191FEEB000808C8C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		F848731F191FEEB000808C8C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		F8487329191FEEB000808C8C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		F848732B191FEEB000808C8C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		F848732F191FEEB000808C8C /* Rating-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rating-Prefix.pch"; sourceTree = "<group>"; };
-		F8487330191FEEB000808C8C /* Rating.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Rating.h; sourceTree = "<group>"; };
-		F8487331191FEEB000808C8C /* Rating.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Rating.m; sourceTree = "<group>"; };
-		F8487333191FEEB000808C8C /* platformoptions.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = platformoptions.xml; sourceTree = "<group>"; };
-		F848734E191FF58900808C8C /* iRate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = iRate.bundle; sourceTree = "<group>"; };
-		F848734F191FF58900808C8C /* iRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iRate.h; sourceTree = "<group>"; };
-		F8487350191FF58900808C8C /* iRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iRate.m; sourceTree = "<group>"; };
-		F8487353191FF71200808C8C /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,27 +48,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F848732C191FEEB000808C8C /* Security.framework in Frameworks */,
-				F8487312191FEEB000808C8C /* CoreFoundation.framework in Frameworks */,
-				F8487316191FEEB000808C8C /* MobileCoreServices.framework in Frameworks */,
-				F848731E191FEEB000808C8C /* CFNetwork.framework in Frameworks */,
 				F8487314191FEEB000808C8C /* UIKit.framework in Frameworks */,
-				F8487318191FEEB000808C8C /* CoreGraphics.framework in Frameworks */,
-				F848731C191FEEB000808C8C /* AudioToolbox.framework in Frameworks */,
-				F848731A191FEEB000808C8C /* SystemConfiguration.framework in Frameworks */,
 				F8487310191FEEB000808C8C /* Foundation.framework in Frameworks */,
-				F848732A191FEEB000808C8C /* AVFoundation.framework in Frameworks */,
-				F8487320191FEEB000808C8C /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BF6849E1D9E3E6000B275FF /* iRate */ = {
+			isa = PBXGroup;
+			children = (
+				1BF6849F1D9E3E6000B275FF /* iRate.bundle */,
+				1BF684A01D9E3E6000B275FF /* iRate.h */,
+				1BF684A11D9E3E6000B275FF /* iRate.m */,
+			);
+			path = iRate;
+			sourceTree = "<group>";
+		};
+		1BF684AC1D9E3F2F00B275FF /* Rating */ = {
+			isa = PBXGroup;
+			children = (
+				1BF684AD1D9E3F2F00B275FF /* FlashRuntimeExtensions.h */,
+				1BF684AE1D9E3F2F00B275FF /* Rating-Prefix.pch */,
+				1BF684AF1D9E3F2F00B275FF /* Rating.h */,
+				1BF684B01D9E3F2F00B275FF /* Rating.m */,
+			);
+			path = Rating;
+			sourceTree = "<group>";
+		};
 		F8487303191FEEB000808C8C = {
 			isa = PBXGroup;
 			children = (
-				F848732D191FEEB000808C8C /* Rating */,
+				1BF684AC1D9E3F2F00B275FF /* Rating */,
+				1BF6849E1D9E3E6000B275FF /* iRate */,
 				F848730E191FEEB000808C8C /* Frameworks */,
 				F848730D191FEEB000808C8C /* Products */,
 			);
@@ -102,50 +98,10 @@
 		F848730E191FEEB000808C8C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F8487311191FEEB000808C8C /* CoreFoundation.framework */,
 				F8487313191FEEB000808C8C /* UIKit.framework */,
-				F8487315191FEEB000808C8C /* MobileCoreServices.framework */,
-				F8487317191FEEB000808C8C /* CoreGraphics.framework */,
-				F8487319191FEEB000808C8C /* SystemConfiguration.framework */,
-				F848731B191FEEB000808C8C /* AudioToolbox.framework */,
-				F848731D191FEEB000808C8C /* CFNetwork.framework */,
 				F848730F191FEEB000808C8C /* Foundation.framework */,
-				F848731F191FEEB000808C8C /* QuartzCore.framework */,
-				F8487329191FEEB000808C8C /* AVFoundation.framework */,
-				F848732B191FEEB000808C8C /* Security.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F848732D191FEEB000808C8C /* Rating */ = {
-			isa = PBXGroup;
-			children = (
-				F8487353191FF71200808C8C /* FlashRuntimeExtensions.h */,
-				F8487330191FEEB000808C8C /* Rating.h */,
-				F8487331191FEEB000808C8C /* Rating.m */,
-				F848732E191FEEB000808C8C /* Supporting Files */,
-			);
-			path = Rating;
-			sourceTree = "<group>";
-		};
-		F848732E191FEEB000808C8C /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F848734D191FF58900808C8C /* iRate */,
-				F848732F191FEEB000808C8C /* Rating-Prefix.pch */,
-				F8487333191FEEB000808C8C /* platformoptions.xml */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		F848734D191FF58900808C8C /* iRate */ = {
-			isa = PBXGroup;
-			children = (
-				F848734E191FF58900808C8C /* iRate.bundle */,
-				F848734F191FF58900808C8C /* iRate.h */,
-				F8487350191FF58900808C8C /* iRate.m */,
-			);
-			path = iRate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,8 +111,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8487354191FF71200808C8C /* FlashRuntimeExtensions.h in Headers */,
-				F8487351191FF58900808C8C /* iRate.h in Headers */,
+				1BF684B31D9E3F2F00B275FF /* Rating.h in Headers */,
+				1BF684A31D9E3E6000B275FF /* iRate.h in Headers */,
+				1BF684B21D9E3F2F00B275FF /* Rating-Prefix.pch in Headers */,
+				1BF684B11D9E3F2F00B275FF /* FlashRuntimeExtensions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +170,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8487358192005BF00808C8C /* iRate.bundle in Resources */,
+				1BF684A21D9E3E6000B275FF /* iRate.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,8 +181,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8487332191FEEB000808C8C /* Rating.m in Sources */,
-				F8487352191FF58900808C8C /* iRate.m in Sources */,
+				1BF684B41D9E3F2F00B275FF /* Rating.m in Sources */,
+				1BF684A41D9E3E6000B275FF /* iRate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

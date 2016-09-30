@@ -53,7 +53,7 @@ package com.alanogames.ane
 				if ( !extensionContext )
 				{
 					trace("[Rating] Get Rating Extension Instance...");
-					extensionContext = ExtensionContext.createExtensionContext("com.alanogames.ane.Rating","Rating");					
+					extensionContext = ExtensionContext.createExtensionContext("com.alanogames.ane.Rating",null);					
 					if(Capabilities.os.indexOf("iPhone")!=-1) isIOS=true;
 				}
 				allowInstance=false;

@@ -28,7 +28,7 @@ void DCRatingContextInitializer(void* extData, const uint8_t* ctxType, FREContex
      */
     static FRENamedFunction func[] =
     {
-//        MAP_FUNCTION(isSupported, NULL),
+        MAP_FUNCTION(isSupported, NULL),
         MAP_FUNCTION(shouldPromptForRating, NULL),
         MAP_FUNCTION(applicationLaunched, NULL),
         MAP_FUNCTION(logEvent, NULL),
@@ -64,23 +64,23 @@ void DCRatingContextFinalizer(FREContext ctx)
 //    return;
 }
 
-//ANE_FUNCTION(isSupported)
-//{
-//    FREObject fo;
-//    
-//    FREResult aResult = FRENewObjectFromBool(YES, &fo);
-//    if (aResult == FRE_OK)
-//    {
-//        //things are fine
-//        NSLog(@"Result = %d", aResult);
-//    }
-//    else
-//    {
-//        //aResult could be FRE_INVALID_ARGUMENT or FRE_WRONG_THREAD, take appropriate action.
-//        NSLog(@"Result = %d", aResult);
-//    }
-//    return fo;
-//}
+ANE_FUNCTION(isSupported)
+{
+    FREObject fo;
+    
+    FREResult aResult = FRENewObjectFromBool(YES, &fo);
+    if (aResult == FRE_OK)
+    {
+        //things are fine
+        NSLog(@"Result = %d", aResult);
+    }
+    else
+    {
+        //aResult could be FRE_INVALID_ARGUMENT or FRE_WRONG_THREAD, take appropriate action.
+        NSLog(@"Result = %d", aResult);
+    }
+    return fo;
+}
 
 
 ANE_FUNCTION(shouldPromptForRating)

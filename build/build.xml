@@ -31,7 +31,7 @@
         <copy file="temp/ios/build/Release-iphoneos/lib${name}.a" todir="temp/ios" overwrite="true"/>
 
 		<copy todir="temp/ios/iRate.bundle/">
-            <fileset dir="../ios/Rating/iRate/iRate.bundle/"/>
+            <fileset dir="../ios/iRate/iRate.bundle/"/>
         </copy>
         <!-- Copy over required frameworks and libs -->
 
